@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style_properties>
+    <style_property property_name="hirqiz_ResizeOnOff" group_name="hirqiz_Resizeoptions" title="Sayfa Boyutlandırma Açma Kapama Butonu" description="" property_type="value" value_type="boolean" value_group="HirqizResize" display_order="10">
+      <value>1</value>
+    </style_property>
+    <style_property property_name="hirqiz_Resizecompressed" group_name="hirqiz_Resizeoptions" title="Dar Sayfa Genişlik Değeri" description="" property_type="value" value_type="string" depends_on="hirqiz_ResizeOnOff" value_group="HirqizResize" display_order="20">
+      <value>"1180px"</value>
+    </style_property>
+    <style_property property_name="hirqiz_Resizeexpanded" group_name="hirqiz_Resizeoptions" title="Geniş Sayfa Genişlik Değeri" description="" property_type="value" value_type="string" depends_on="hirqiz_ResizeOnOff" value_group="HirqizResize" display_order="30">
+      <value>"1366px"</value>
+    </style_property>
+</style_properties>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="XenResize.less" version_id="1000010" version_string="1.0.0"><![CDATA[/* Resize */
+a.hirqiz-resize-toggle {
+    float: right;
+	font-size: 20px;
+    padding-right: 10px;
+}
+
+@media (max-width:650px) { a.hirqiz-resize-toggle {display: none !important;} }
+@media (max-width: 480px) { a.hirqiz-resize-toggle {display: none !important;} }
+
+html[expand-state='expand']{
+    .p-staffBar-inner  {max-width: @xf-hirqiz_Resizecompressed;}
+    .p-header-inner {max-width: @xf-hirqiz_Resizecompressed;}
+    .p-nav-inner {max-width: @xf-hirqiz_Resizecompressed;}
+    .p-sectionLinks-inner {max-width: @xf-hirqiz_Resizecompressed;}
+    .p-body-inner {max-width: @xf-hirqiz_Resizecompressed;}
+    .p-footer-inner {max-width: @xf-hirqiz_Resizecompressed;}
+    .hirqiz-resize-toggle.close{display: inline-block;}
+    .hirqiz-resize-toggle.open{display: none;}
+}
+
+html[expand-state='expanded']{
+    .p-staffBar-inner  {max-width: @xf-hirqiz_Resizeexpanded;}
+    .p-header-inner {max-width: @xf-hirqiz_Resizeexpanded;}
+    .p-nav-inner {max-width: @xf-hirqiz_Resizeexpanded;}
+    .p-sectionLinks-inner {max-width: @xf-hirqiz_Resizeexpanded;}
+    .p-body-inner {max-width: @xf-hirqiz_Resizeexpanded;}
+    .p-footer-inner {max-width: @xf-hirqiz_Resizeexpanded;}
+    .hirqiz-resize-toggle.close{display: none;}
+    .hirqiz-resize-toggle.open{display: inline-block;}
+}
+
+.p-header-inner, .p-body-inner, .p-footer-inner, .p-nav-inner, .p-sectionLinks-inner {
+    transition: 0.2s ease;
+}]]></template>
+</templates>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="XenResize" permission_id="XenResizePerm" permission_type="flag" interface_group_id="XenResize_perm" display_order="10"/>
+</permissions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="style_prop_group.hirqiz_Resizeoptions" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[[XenGenTr] XenResize Kontrolleri]]></phrase>
+  <phrase title="style_prop_group_desc.hirqiz_Resizeoptions" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[XenResize Özelleştirmeleri.]]></phrase>
+  <phrase title="permission.XenResize_XenResizePerm" version_id="1000010" version_string="1.1.1"><![CDATA[Sayfayı yeniden boyutlandırabilir mi?]]></phrase>
+  <phrase title="permission_interface.XenResize_perm" version_id="1000010" version_string="1.1.1"><![CDATA[[XenGenTr] XenResize İzinleri]]></phrase>
+</phrases>
